@@ -127,8 +127,10 @@ body {
 } */
 
 .profile-descriptions{
-    background-color: grey;
+    background-color: rgb(216, 210, 210);
     
+    padding-top: 1vh;
+
     border-radius: 2vh;
 }
 
@@ -147,10 +149,13 @@ body {
     background-color: rgb(131,177,223);
 
     padding-top: 8vh;
+    overflow-y:scroll;
 }
 
 .right-panel .panel-section{
-    background-color: rgb(92, 134, 122);
+    background-color: rgb(143, 168, 161);
+    margin-bottom: 10vh;
+    padding-bottom: 2vh;
 }
 
 .right-panel .panel-section .section-title{
