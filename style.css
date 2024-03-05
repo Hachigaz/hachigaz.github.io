@@ -126,10 +126,18 @@ body {
 
 } */
 
+.profile-descriptions{
+    background-color: grey;
+    
+    border-radius: 2vh;
+}
+
 .profile-descriptions .description{
     font-weight: 450;
 
-    margin-bottom: 1vh;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    margin-bottom: 2vh;
 }
 
 .right-panel{
@@ -137,8 +145,23 @@ body {
     height:100%;
     
     background-color: rgb(131,177,223);
+
+    padding-top: 8vh;
 }
 
-.right-panel .posts{
-    padding-top: 8vh;
+.right-panel .panel-section{
+    background-color: rgb(92, 134, 122);
+}
+
+.right-panel .panel-section .section-title{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.right-panel .panel-section .item-title{
+    font-size: 15pt;
+}
+
+.right-panel .panel-section .item-description{
+
 }
